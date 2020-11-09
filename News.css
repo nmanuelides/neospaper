@@ -7,6 +7,11 @@
   --cyberpunk-dar-blue: #074052;
 }
 
+@font-face {
+  font-family: swiperace;
+  src: url(/fonts/swiperace.ttf);
+}
+
 * {
   border: solid 0px white;
 }
