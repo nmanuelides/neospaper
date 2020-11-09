@@ -3,6 +3,7 @@
   --light-gray1: #8f9ca1;
   --lighter-gray: #394b4f;
   --dark-gray1: #2d3d40;
+  --dark-gray2: #253235;
   --cyberpunk-blue: #00c3ff;
   --cyberpunk-dar-blue: #074052;
 }
@@ -158,14 +159,14 @@ section {
 }
 
 article {
-  min-width: 40%;
-  margin-right: 20px;
+  padding: 5px;
+  min-width: 30%;
+  margin-right: 10px;
   display: inline-block;
-  background-color: var(--lighter-gray);
-  box-shadow: 0 0 10px black;
-  width: 31%;
+  background-color: var(--dark-gray2);
+  width: 30%;
   height: 400px;
-  border-radius: 10px;
+  border-radius: 15px;
   transition: all 0.3s ease;
   overflow: hidden;
 }
