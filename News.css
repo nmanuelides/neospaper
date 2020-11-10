@@ -8,6 +8,8 @@
   --cyberpunk-dar-blue: #074052;
   --cyberpunk-magenta: #ff0080;
   --light-shadow: #00000066;
+  --lighter-shadow: #00000038;
+  --dark-purple: #2b1636;
   --default-font-color: #a089a1;
   --bg-gradient:linear-gradient(0deg, rgba(3,21,64,1) 0%, rgba(61,29,73,1) 100%);
 }
@@ -180,7 +182,7 @@ article {
   min-width: 30%;
   margin-right: 10px;
   display: inline-block;
-  background: #2b1636;
+  background: var(--lighter-shadow);
   width: 30%;
   height: 400px;
   border-radius: 15px;
