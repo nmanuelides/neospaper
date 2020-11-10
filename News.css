@@ -19,13 +19,16 @@
 }
 
 * {
-  border: solid 1px white;
+  margin: 0px;
+  border: solid 0px white;
 }
 
 body {
+  max-height: max-content;
   background-color: var(--dark-gray1);
   color: var(--light-gray1);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
 }
 
 nav {
@@ -42,12 +45,6 @@ nav ul {
   display: table;
   margin: 0;
   padding: 0;
-}
-
-main {
-  overflow: visible;
-  margin-top: 200px;
-  padding: 0 20px;
 }
 
 .section-nav {
@@ -115,17 +112,10 @@ header p {
   text-align: right;
   vertical-align: top;
 }
-.sections-container {
-  margin: 120px 10px;
-}
 
-.section-title {
-  padding: 5px 10px;
-  color: var(--dark-gray1);
-  font-weight: bold;
-  max-width: fit-content;
-  background-color: var(--cyberpunk-yellow);
-  border-radius: 0px 4px 4px 0;
+main {
+  overflow: visible;
+  margin-top: 200px;
 }
 
 aside {
@@ -159,9 +149,24 @@ aside img {
 
 section {
   margin-top: 10px;
+  padding-left: 20px;
   text-align: justify;
   width: 85%;
   height: 500px;
+}
+
+.sections-container {
+  margin: 120px 0px;
+}
+
+.section-title {
+  margin: 20px 0px;
+  padding: 5px 30px;
+  color: var(--dark-gray1);
+  font-weight: bold;
+  max-width: fit-content;
+  background-color: var(--cyberpunk-yellow);
+  border-radius: 0px 4px 4px 0;
 }
 
 article {
