@@ -149,10 +149,11 @@ aside img {
 
 section {
   margin-top: 10px;
+  padding-bottom: 30px;
   padding-left: 20px;
   text-align: justify;
   width: 85%;
-  height: 500px;
+  height: max-content;
 }
 
 .sections-container {
