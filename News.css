@@ -8,6 +8,7 @@
   --cyberpunk-dar-blue: #074052;
   --cyberpunk-magenta: #ff0080;
   --light-shadow: #00000066;
+  --default-font-color: #a089a1;
   --bg-gradient:linear-gradient(0deg, rgba(3,21,64,1) 0%, rgba(61,29,73,1) 100%);
 }
 
@@ -30,7 +31,7 @@ body {
   max-height: max-content;
   background: rgb(3,21,64);
   background: var(--bg-gradient);
-  color: var(--light-gray1);
+  color: var(--default-font-color);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 0px;
 }
@@ -175,7 +176,7 @@ section {
 }
 
 article {
-  padding: 5px;
+  padding: 10px 5px;
   min-width: 30%;
   margin-right: 10px;
   display: inline-block;
