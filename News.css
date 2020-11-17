@@ -224,6 +224,10 @@ footer{
 
 @media (max-width:1100px) {
 
+header p {
+  font-size: 20pt;
+}
+
 aside {
   font-size: 10pt;
 }
