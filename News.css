@@ -222,7 +222,7 @@ footer{
   color: var(---gray1);
 }
 
-@media (max-width:1080px) {
+@media (max-width:1100px) {
 
 aside {
   font-size: 10pt;
