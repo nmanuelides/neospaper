@@ -172,7 +172,7 @@ section {
 
 article {
   padding: 10px 5px;
-  min-width: 30%;
+  min-width: 20%;
   margin-right: 10px;
   display: inline-block;
   background: var(--lighter-shadow);
@@ -215,7 +215,7 @@ footer{
   color: var(---gray1);
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1100px) {
 
 header h1 {
   color: orange;
@@ -228,6 +228,10 @@ header h1 {
 
 aside p{
   font-size: 12pt;
+}
+
+article {
+  width: 25%;
 }
 
 article img {
