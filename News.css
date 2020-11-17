@@ -218,6 +218,7 @@ footer{
 @media (max-width: 1100px) {
 
 header h1 {
+  color: orange;
   font-size: 30pt;
 }
 
