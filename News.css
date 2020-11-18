@@ -134,12 +134,7 @@ aside p {
   font-size: 14pt;
   font-weight: bolder;
   font-style: italic;
-  color: var(--cyberpunk-magenta);
-  text-shadow: -2px 0px var(--cyberpunk-dar-blue),
-    0 2px var(--cyberpunk-dar-blue), 2px 0 var(--cyberpunk-dar-blue),
-    0 -2px var(--cyberpunk-dar-blue);
-  -moz-text-shadow: 1 1 20px var(--light-shadow);
-  -webkit-text-shadow: 1 1 20px var(--light-shadow);
+  color: white;
 }
 
 aside img {
@@ -175,12 +170,13 @@ article {
   min-width: 20%;
   margin-right: 10px;
   display: inline-block;
-  background: var(--lighter-shadow);
+  background: #482b5b;
   width: 30%;
   height: 400px;
   border-radius: 15px;
   transition: all 0.3s ease;
   overflow: hidden;
+  box-shadow: 0 0 5px var(--light-shadow);
 }
 
 article:hover {
